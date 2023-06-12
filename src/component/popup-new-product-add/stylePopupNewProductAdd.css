@@ -1,0 +1,113 @@
+.popup-new-product {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-new-product-title {
+    font-size: var(--title-typography);
+    text-align: center;
+    margin-block: 2rem
+}
+
+.popup-new-product-container {
+  width: 556px;
+  min-height: 534px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding-block: 1.5rem;
+  padding-inline: 2rem;
+}
+
+.popup-new-product-input{
+    width: 100%;
+    padding-inline-start: 10px;
+    height: 45px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #F5F5F5;
+    font-size: 15px;
+}
+
+.popup-new-product-btn-container {
+    display: flex;
+    justify-content: center;
+    /* margin-block-start: 1rem */
+}
+
+.popup-new-product-save-btn {
+    width: 164px;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.popup-new-product-cancel-btn {
+    width: 164px;
+    padding: 10px 20px;
+    background-color: unset;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    cursor: pointer; 
+}
+
+.file-input {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background-color: #F5F5F5;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .file-label {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #eaeaea;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(117, 117, 117);
+    
+  }
+  
+  .file {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    
+  }
+
+  .popup-side-by-side-inputs {
+    display: flex;
+    gap: 1rem
+  }
+
+  .popup-new-product-textarea {
+    width: 100%;
+    padding-inline-start: 10px;
+    padding-block-start: 5px;
+    height: 45px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #F5F5F5;
+    font-size: 15px;
+  }

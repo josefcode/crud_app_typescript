@@ -1,0 +1,48 @@
+.about-page {
+    margin-top: 4rem;
+  
+}
+
+.about-container {
+    display: flex;
+    height: 100vh;
+}
+.about-title-side {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-inline: 2rem;
+    width: 30%;
+    background-color: var(--primary-color);
+  
+}
+
+.about-title {
+    font-size: var(--title-typography);
+}
+
+.about-desc-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+   padding-inline: 4rem;
+   padding-block: 3rem
+}
+
+.about-desc-side h1 {
+    font-size: var(--title-typography);
+}
+
+.about-desc-side p {
+    margin-block: 2rem;
+}
+
+.about-icons {
+    display: flex;
+    justify-content: center;
+    margin-block-start: 3rem;
+
+}
+

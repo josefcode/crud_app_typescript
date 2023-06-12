@@ -1,0 +1,17 @@
+.home-page {
+    margin-top: 60px;
+    padding: 20px;
+    padding-inline: 2rem;
+}
+.home-page a {
+    color: unset;
+}
+.home-title {
+    font-size: var(--title-typography);
+    margin-block: 1rem
+}
+
+.home-product-card {
+    display: flex;
+    gap: 2rem
+}

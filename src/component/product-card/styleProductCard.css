@@ -1,0 +1,26 @@
+.product-card {
+    width: 213px;
+    min-height: 261px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.product-title {
+    font-size: 15px;
+    margin-block-end: 1rem;
+}
+
+.product-brand {
+    font-size: 12px;
+}
